@@ -1,0 +1,15 @@
+
+<project name="common-antcontrib">
+
+  <!-- Set the current file path -->
+  <dirname property="common-antcontrib._basedir" file="${ant.file.common-antcontrib}" />
+
+
+  <!-- Define the classpath -->
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+    <classpath>
+      <pathelement location="${common-antcontrib._basedir}/ant-contrib-1.0b3/ant-contrib-1.0b3.jar" />
+    </classpath>
+  </taskdef>
+
+</project>
